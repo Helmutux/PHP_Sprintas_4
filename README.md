@@ -9,15 +9,15 @@ Realizuota:
   - Pradžia
   - Apie mus
   - Kontaktai
-  Kiekvienas meniu punktas atidaro atskirą puslapį (page). Visi jie turi bendrą headerį, sidebar'ą, footer'į.
-  Pradiniame puslapyje atvaizduojami 3 naujausi įrašai.
+  Kiekvienas meniu punktas atidaro atskirą puslapį (page.php). Visi jie turi bendrą viršų (header.php), šonininį meniu (sidebar.php), apačią (footer.php).
+  Pradiniame puslapyje atvaizduojami 3 naujausi sutrumpinti (the_excerpt())įrašai.
  
-2. Atskirų įrašų peržiūra atskirame (single) puslapyje.
+2. Atskirų įrašų pilna (the_content()) peržiūra atskirame (single.php) puslapyje.
 
-3. Visame puslapyje veikianti tekstinė paieška, pateikianti rezultate įrašų, turinčių savyje užklaustą žodį, atvaizdavimą arba pranešimą, kad nieko nesurasta.
+3. Visame puslapyje veikianti tekstinė paieška (search.php), pateikianti rezultate įrašų, turinčių savyje užklaustą žodį, atvaizdavimą arba pranešimą, kad nieko nesurasta.
 
-4. Įrašų pateikimas (filtravimas ir atvaizdavimas) pagal įrašo kategoriją arba žymę.
+4. Įrašų pateikimas (filtravimas ir atvaizdavimas) pagal įrašo kategoriją (category.php) arba žymę (tag.php).
 
 5. Puslapių pagination.
 
-6. Bandant atidaryti neegzistuojantį psl, nukreipiama į atskirą 404 psl
+6. Bandant atidaryti neegzistuojantį psl, nukreipiama į atskirą 404 psl (404.php)

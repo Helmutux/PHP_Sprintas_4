@@ -1,7 +1,7 @@
 # PHP_Sprintas_4
 Įmonės internetinio tinklapio sukūrimas naudojant wordpress turinio valdymo sistemą.
 GitHub patalpintas susikurtos temos (kurios pagrindu veikia puslapis) kodas.
-Puslapis veikia adresu http://donatas.space (bus aktyvus iki 2020 gegužės 23; nemokamas 10 dienų hostingas)
+Puslapis veikia adresu http://donatas.website
 
 Realizuota:
 
